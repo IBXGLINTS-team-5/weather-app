@@ -24,7 +24,7 @@ fetch(`${link}`)
         const weatherHTML = `
             <div class="col text-center">
                 <h3>Today's weather in the city of ${data.name} is ${data.weather[0].main}</h3>
-                <p>overview of today's weather ${data.weather[0].description} with a minimum temperature ${data.main.temp_min} and maximum temperature ${data.main.temp_max}<p>
+                <p>overview of today's weather ${data.weather[0].description} with a minimum temperature ${data.main.temp_min} and maximum temperature ${data.main.temp_max} at wind speed ${data.wind.speed} km/h<p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.6529516481!2d106.68942891339466!3d-6.22938669747817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1586254416252!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         `
