@@ -23,8 +23,8 @@ fetch(`${link}`)
 
         const weatherHTML = `
             <div class="col text-center">
-                <h3>cuaca hari ini di kota ${data.name} adaalah ${data.weather[0].main}</h3>
-                <p>gambaran cuaca hari ini ${data.weather[0].description} dengan temperatur minimal ${data.main.temp_min} temperatur maksimal ${data.main.temp_max}<p>
+                <h3>Cuaca hari ini di kota ${data.name} adaalah ${data.weather[0].main}</h3>
+                <p>Gambaran cuaca hari ini ${data.weather[0].description} dengan temperatur minimal ${data.main.temp_min} temperatur maksimal ${data.main.temp_max}<p>
                
             </div>
         `
