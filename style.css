@@ -1,12 +1,58 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./bg.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
 .nav{
-    background-color: rgb(82, 82, 82);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    opacity: 70%;
+    position: fixed;
 }
 
 a{
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 a:hover{
-    color: rgb(156, 156, 156);
+    color: rgb(83, 83, 83);
 }
+
+.container-sm{
+    height: 300px;
+}
+
+h1{
+    font-family: 'Bitter', serif;
+    color: rgb(53, 53, 53);
+    margin-top: 10%;
+}
+
+.btn.btn-dark {
+    
+    margin-top: 40px;
+    margin-bottom: 60%;
+}
+
+.container{
+    margin-top: 90px;
+}
+
+h2{
+    text-align: center;
+}
+
+hr {
+    width: 250px;
+    border-top: 6px solid rgb(124, 124, 124);
+}
+
