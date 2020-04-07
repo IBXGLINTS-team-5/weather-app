@@ -10,23 +10,6 @@ body{
     background-repeat: no-repeat;
 }
 
-.nav{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    opacity: 70%;
-    position: fixed;
-}
-
-a{
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-a:hover{
-    color: rgb(83, 83, 83);
-}
-
 .container-sm{
     height: 300px;
 }
@@ -44,10 +27,11 @@ h1{
 }
 
 .container{
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 h2{
+    margin-top: 80px;
     text-align: center;
 }
 
@@ -56,3 +40,7 @@ hr {
     border-top: 6px solid rgb(124, 124, 124);
 }
 
+footer{
+    margin-top: 40px;
+    text-align: center;
+}
