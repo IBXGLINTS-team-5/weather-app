@@ -1,8 +1,5 @@
 const link = 'http://api.openweathermap.org/data/2.5/weather?q=Jakarta,ID&appid=08c63bb12c5a4132f5d570f08f17872d'
 
-
-
-
 fetch(`${link}`)
     .then(response => {
         return response.json()
@@ -23,5 +20,5 @@ fetch(`${link}`)
     data main = temperature :${data.main.temp} feels_like:${data.main.feels_like} temp_min:${data.main.temp_min} temp_max:${data.main.temp_max} pressure:${data.main.preesure} humidity:${ data.main.humidity}
     data country${data.sys.country}
     data ${data.name}`
-        document.getElementById('map').innerHTML = weatherHTML
+        document.getElementById('weather').innerHTML = weatherHTML
     })
